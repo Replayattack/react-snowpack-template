@@ -5,6 +5,7 @@
     "test": "jest",
     "prettier": "prettier --ignore-path .gitignore \"**/*.+(json|[jt]sx?|html)\"",
     "check-format": "npm run prettier -- --list-different",
+    "check-types": "tsc",
     "format": "npm run prettier -- --write",
     "lint": "eslint --ignore-path .gitignore --ext .js,.jsx,.ts,.tsx ."
   },
