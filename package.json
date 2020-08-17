@@ -3,7 +3,9 @@
     "start": "snowpack dev",
     "build": "snowpack build",
     "test": "jest",
-    "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\"",
+    "prettier": "prettier --ignore-path .gitignore \"**/*.+(json|[jt]sx?|html)\"",
+    "check-format": "npm run prettier -- --list-different",
+    "format": "npm run prettier -- --write",
     "lint": "eslint --ignore-path .gitignore --ext .js,.jsx,.ts,.tsx ."
   },
   "dependencies": {

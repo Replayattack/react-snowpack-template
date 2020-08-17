@@ -1,12 +1,12 @@
-import * as React from 'react';
-import { render } from '@testing-library/react';
-import App from './App';
+import * as React from 'react'
+import { render } from '@testing-library/react'
+import App from './App'
 
 test('renders learn react link', () => {
-  expect.hasAssertions();
+  expect.hasAssertions()
 
-  const { getByText } = render(<App />);
-  const linkElement = getByText(/learn react/i);
+  const { getByText } = render(<App />)
+  const linkElement = getByText(/learn react/i)
 
-  expect(linkElement).toBeInTheDocument();
-});
+  expect(linkElement).toBeInTheDocument()
+})
