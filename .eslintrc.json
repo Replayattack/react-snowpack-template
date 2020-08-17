@@ -1,0 +1,54 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 2019,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "project": "./tsconfig.json"
+  },
+  "plugins": ["@typescript-eslint", "jest"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:jest/all",
+    "plugin:jest-formatting/strict",
+    "plugin:jest-dom/recommended",
+    "plugin:testing-library/react",
+    "plugin:jsx-a11y/recommended"
+  ],
+  "rules": {
+    "strict": "off",
+    "react/react-in-jsx-scope": "off",
+    "jest/require-top-level-describe": "off"
+  },
+  "env": {
+    "browser": true
+  },
+  "settings": {
+    "react": {
+      "pragma": "React",
+      "version": "16"
+    }
+  },
+  "reportUnusedDisableDirectives": true,
+  "overrides": [
+    {
+      "files": ["*.js"],
+      "parser": "espree",
+      "env": {
+        "node": true
+      }
+    },
+    {
+      "files": ["*.test.tsx?"],
+      "env": {
+        "jest": true
+      }
+    }
+  ]
+}

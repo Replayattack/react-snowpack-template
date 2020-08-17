@@ -2,9 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-interface AppProps {}
-
-function App({}: AppProps) {
+function App(): JSX.Element {
   return (
     <div className="App">
       <header className="App-header">
