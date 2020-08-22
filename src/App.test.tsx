@@ -5,8 +5,10 @@ import App from './App'
 test('renders learn react link', () => {
   expect.hasAssertions()
 
-  const { getByText } = render(<App />)
-  const linkElement = getByText(/learn react/i)
+  const { getByRole } = render(<App />)
+  const headingElement = getByRole('heading', {
+    name: /react template with snowpack, typescript and tailwind css/i
+  })
 
-  expect(linkElement).toBeInTheDocument()
+  expect(headingElement).toBeInTheDocument()
 })
