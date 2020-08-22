@@ -1,12 +1,12 @@
 import * as React from 'react'
-import { render } from '@testing-library/react'
+import { render, screen } from '@testing-library/react'
 import App from './App'
 
-test('renders learn react link', () => {
+test('renders react template with snowpack, typescript and tailwind css', () => {
   expect.hasAssertions()
 
-  const { getByRole } = render(<App />)
-  const headingElement = getByRole('heading', {
+  render(<App />)
+  const headingElement = screen.getByRole('heading', {
     name: /react template with snowpack, typescript and tailwind css/i
   })
 
