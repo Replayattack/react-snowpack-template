@@ -17,6 +17,7 @@
     "formik": "^2.1.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-error-boundary": "^2.3.1",
     "react-query": "^2.12.1",
     "react-query-devtools": "^2.4.4",
     "react-router-dom": "^5.2.0"
