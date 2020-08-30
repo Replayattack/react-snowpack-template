@@ -54,7 +54,7 @@
     "postcss-cli": "^7.1.1",
     "prettier": "^2.1.1",
     "snowpack": "^2.9.3",
-    "tailwindcss": "^1.7.5",
+    "tailwindcss": "^1.7.6",
     "typescript": "^3.9.7"
   }
 }
