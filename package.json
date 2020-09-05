@@ -19,7 +19,7 @@
     "react-dom": "^16.13.1",
     "react-error-boundary": "^2.3.1",
     "react-helmet": "^6.1.0",
-    "react-query": "^2.14.1",
+    "react-query": "^2.15.1",
     "react-query-devtools": "^2.4.5",
     "react-router-dom": "^5.2.0"
   },
@@ -37,7 +37,7 @@
     "@typescript-eslint/parser": "^4.0.1",
     "autoprefixer": "^9.8.6",
     "eslint": "^7.8.1",
-    "eslint-plugin-jest": "^23.20.0",
+    "eslint-plugin-jest": "^24.0.0",
     "eslint-plugin-jest-dom": "^3.2.2",
     "eslint-plugin-jest-formatting": "^2.0.0",
     "eslint-plugin-jsx-a11y": "^6.3.1",
@@ -54,7 +54,7 @@
     "postcss-cli": "^7.1.2",
     "prettier": "^2.1.1",
     "snowpack": "^2.10.1",
-    "tailwindcss": "^1.7.6",
+    "tailwindcss": "^1.8.2",
     "typescript": "^3.9.7"
   }
 }
