@@ -1,17 +1,9 @@
 module.exports = {
-  purge: {
-    mode: 'layers',
-    layers: ['base', 'components', 'utilities'],
-    content: ['./src/**.tsx'],
-  },
+  purge: ['./src/**.tsx'],
+  darkMode: 'media',
   theme: {
     extend: {},
   },
   variants: {},
   plugins: [require('@tailwindcss/ui')],
-  future: {
-    darkModeVariant: true,
-    purgeLayersByDefault: true,
-    removeDeprecatedGapUtilities: true,
-  },
 }
